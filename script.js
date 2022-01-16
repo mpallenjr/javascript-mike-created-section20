@@ -170,6 +170,7 @@ if (birthYear <= 2000) {
 console.log(century);
 */
 
+/*
 //type conversion
 const inputYear = '1986';
 console.log(Number(inputYear) +18);
@@ -192,4 +193,4 @@ console.log('23' -'10' -3);
 console.log('23' * '2')
 console.log('23' / '2')
 //The multiply and divide operators automatically convert to integers because that is the only way they can be used.
-
+*/
