@@ -109,3 +109,12 @@ Section 20 - Type Conversion and Coercion
 Type conversion is manually changing the type from one type to another. (explicite)
 Coercion is when JavaScript does this automatically for you.  (automatic)
 
+console.log(Number('2')); - converts a string to an integer
+
+console.log(String(2)); - converts a number to a string. 
+
+in type coercion the + operator is used to automatically convert an integer to a string, the - operator is used to automatically convert a string to an integer. 
+
+
+
+\\\\\\\\\\

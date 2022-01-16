@@ -170,7 +170,7 @@ if (birthYear <= 2000) {
 console.log(century);
 */
 
-
+//type conversion
 const inputYear = '1986';
 console.log(Number(inputYear) +18);
 // Number is a function that converts a string to an integer. 
@@ -181,4 +181,15 @@ console.log(inputYear + 18)
 
 console.log(String(23)); //String Function converts an integer to a string
 
+
+//type coercion
+console.log('I am ' + 23 + ' years old' )
+//The plus operator converts integers to strings automatically.
+
+console.log('23' -'10' -3);
+//The minus operater converts strings to integers.  
+
+console.log('23' * '2')
+console.log('23' / '2')
+//The multiply and divide operators automatically convert to integers because that is the only way they can be used.
 
