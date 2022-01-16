@@ -105,3 +105,7 @@ an else statement is not reuired.
 //////////
 
 Section 20 - Type Conversion and Coercion
+
+Type conversion is manually changing the type from one type to another. (explicite)
+Coercion is when JavaScript does this automatically for you.  (automatic)
+

@@ -171,3 +171,14 @@ console.log(century);
 */
 
 
+const inputYear = '1986';
+console.log(Number(inputYear) +18);
+// Number is a function that converts a string to an integer. 
+console.log(inputYear + 18)
+// will add the 18 to the string in this case.  need to convert string to number
+
+// console.log(Number('Mike')); // Will produce a NaN error
+
+console.log(String(23)); //String Function converts an integer to a string
+
+
